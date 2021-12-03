@@ -15,29 +15,29 @@ const convertSnippetArrayToString = (snippetArray: Array<string>): string => sni
 
 export async function activate(context: vscode.ExtensionContext) {
     // Version Notification
-    const extensionID = 'jigar-patel.OdooSnippets';
-    const VscOdooSnippets:any = vscode.extensions.getExtension(extensionID);
-    const VscOdooSnippetsVersion = VscOdooSnippets.packageJSON.version;
-    const previousVersion = context.globalState.get('OdooSnippetsVersion');
+    const extensionID = 'jigar-patel.FlectraSnippets';
+    const VscFlectraSnippets:any = vscode.extensions.getExtension(extensionID);
+    const VscFlectraSnippetsVersion = VscFlectraSnippets.packageJSON.version;
+    const previousVersion = context.globalState.get('FlectraSnippetsVersion');
     if (previousVersion === undefined) {
-        console.log('VscOdooSnippets first-time install');
+        console.log('VscFlectraSnippets first-time install');
         return;
     }
-    if (previousVersion !== VscOdooSnippetsVersion) {
-        console.log(`VscOdooSnippets upgraded from v${previousVersion} to v${VscOdooSnippetsVersion}`);
+    if (previousVersion !== VscFlectraSnippetsVersion) {
+        console.log(`VscFlectraSnippets upgraded from v${previousVersion} to v${VscFlectraSnippetsVersion}`);
 
         const actions = [{ title: "What's New" }, { title: 'Website' }];
-        const result = await vscode.window.showInformationMessage(`VscOdooSnippets has been updated to v${VscOdooSnippetsVersion} — check out what's new!`, ...actions);
+        const result = await vscode.window.showInformationMessage(`VscFlectraSnippets has been updated to v${VscFlectraSnippetsVersion} — check out what's new!`, ...actions);
 
         if (result != null) {
             if (result === actions[0]) {
-                await vscode.env.openExternal(vscode.Uri.parse('https://github.com/Droggol/VscOdooSnippets/blob/master/CHANGELOG.md'));
+                await vscode.env.openExternal(vscode.Uri.parse('https://github.com/Droggol/VscFlectraSnippets/blob/master/CHANGELOG.md'));
             } else if (result === actions[1]) {
-                await vscode.env.openExternal(vscode.Uri.parse('https://www.droggol.com/odoo-tools'));
+                await vscode.env.openExternal(vscode.Uri.parse('https://www.droggol.com/flectra-tools'));
             }
         }
     }
-    context.globalState.update('OdooSnippetsVersion', VscOdooSnippetsVersion);
+    context.globalState.update('FlectraSnippetsVersion', VscFlectraSnippetsVersion);
 
     // Snippets Search
     const disposable = vscode.commands.registerCommand(

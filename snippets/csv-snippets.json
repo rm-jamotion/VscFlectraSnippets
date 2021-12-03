@@ -1,23 +1,23 @@
 {
     "Access Header": {
-        "prefix": "oohdr",
+        "prefix": "flhdr",
         "body": [
             "id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink\n"
         ],
         "description": "Add an ir_model_access table header"
     },
     "All group access": {
-        "prefix": "ooall",
+        "prefix": "flall",
         "body": [
             "access_${10:model_technical_name}_all,access.${20:${10/[_]/./g}}.all,model_${10},,${70|1,0|},${80|1,0|},${90|1,0|},${100|1,0|}\n"
         ],
-        "description": "Add an odoo model all group access record"
+        "description": "Add an flectra model all group access record"
     },
     "Specify group access": {
-        "prefix": "oospec",
+        "prefix": "flspec",
         "body": [
             "access_${10:model_technical_name}_${20:group_id},access.${30:${10/[_]/./g}}.${40:${20/[_]/./g}},model_${10},${50:module_technical_name}.${20},${70|1,0|},${80|1,0|},${90|1,0|},${100|1,0|}\n"
         ],
-        "description": "Add an odoo model specify group access record"
+        "description": "Add an flectra model specify group access record"
     }
 }

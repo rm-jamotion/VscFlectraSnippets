@@ -1,8 +1,8 @@
 {
     "Define": {
-        "prefix": "oodefine",
+        "prefix": "fldefine",
         "body": [
-            "odoo.define('${1:module_name}', function (require) {",
+            "flectra.define('${1:module_name}', function (require) {",
             "\"use strict\";",
             "",
             "\t${0}",
@@ -13,7 +13,7 @@
         "description": "Defining a module"
     },
     "Widget": {
-        "prefix": "oowidget",
+        "prefix": "flwidget",
         "body": [
             "var ${1:MyWidget} = Widget.extend({",
             "\ttemplate: 'MyQWebTemplate',",
@@ -43,14 +43,14 @@
         "description": "Add widget"
     },
     "Call super": {
-        "prefix": "oosuper",
+        "prefix": "flsuper",
         "body": [
             "this._super.apply(this, arguments);"
         ],
         "description": "Add super statement"
     },
     "Rpc": {
-        "prefix": "oorpc",
+        "prefix": "flrpc",
         "body": [
             "return this._rpc({",
             "\tmodel: '${1:model_name}',",
@@ -64,7 +64,7 @@
         "description": "Add rpc call"
     },
     "Rpc route": {
-        "prefix": "oorpc_route",
+        "prefix": "flrpc_route",
         "body": [
             "return this._rpc({",
             "\troute: '${1:url}',",
@@ -78,7 +78,7 @@
         "description": "Add route rpc call"
     },
     "Dialog": {
-        "prefix": "oodialog",
+        "prefix": "fldialog",
         "body": [
             "var MyDialog = Dialog.extend({",
             "\ttemplate: '${1:My.Dialog}',",
@@ -119,7 +119,7 @@
         "description": "Add dialog widget"
     },
     "Alert": {
-        "prefix": "ooalert",
+        "prefix": "flalert",
         "body": [
             "Dialog.alert(this, _t(\"${1:message}\"), {",
             "\ttitle: _t(\"${2:title}\"),",
@@ -131,7 +131,7 @@
         "description": "Add alert dialog"
     },
     "Confirm": {
-        "prefix": "ooconfirm",
+        "prefix": "flconfirm",
         "body": [
             "Dialog.confirm(this, _t(\"${1:message}\"), {",
             "\ttitle: _t(\"${2:title}\"),",

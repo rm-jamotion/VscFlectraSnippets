@@ -1,45 +1,45 @@
 <h1 align="center">
-    <a href="https://marketplace.visualstudio.com/items?itemName=jigar-patel.OdooSnippets">
-        <img src="https://raw.githubusercontent.com/droggol/VscOdooSnippets/master/images/icon.png"/>
+    <a href="https://marketplace.visualstudio.com/items?itemName=jigar-patel.FlectraSnippets">
+        <img src="https://raw.githubusercontent.com/droggol/VscFlectraSnippets/master/images/icon.png"/>
     </a>
-    <div>Odoo Snippets</div>
+    <div>Flectra Snippets</div>
     <div style="margin: 0.3em auto;">
-        <a href="https://marketplace.visualstudio.com/items?itemName=jigar-patel.OdooSnippets">
-            <img src="https://img.shields.io/visual-studio-marketplace/v/jigar-patel.OdooSnippets.svg?label=Version&color=875A7B" alt="Version"/>
+        <a href="https://marketplace.visualstudio.com/items?itemName=jigar-patel.FlectraSnippets">
+            <img src="https://img.shields.io/visual-studio-marketplace/v/jigar-patel.FlectraSnippets.svg?label=Version&color=875A7B" alt="Version"/>
         </a>
-        <a href="https://marketplace.visualstudio.com/items?itemName=jigar-patel.OdooSnippets">
-            <img src="https://img.shields.io/visual-studio-marketplace/i/jigar-patel.OdooSnippets.svg?label=Installs&color=875A7B" alt="Installs"/>
+        <a href="https://marketplace.visualstudio.com/items?itemName=jigar-patel.FlectraSnippets">
+            <img src="https://img.shields.io/visual-studio-marketplace/i/jigar-patel.FlectraSnippets.svg?label=Installs&color=875A7B" alt="Installs"/>
         </a>
-        <a href="https://marketplace.visualstudio.com/items?itemName=jigar-patel.OdooSnippets">
-            <img src="https://img.shields.io/visual-studio-marketplace/d/jigar-patel.OdooSnippets.svg?label=Downloads&color=875A7B" alt="Downloads"/>
+        <a href="https://marketplace.visualstudio.com/items?itemName=jigar-patel.FlectraSnippets">
+            <img src="https://img.shields.io/visual-studio-marketplace/d/jigar-patel.FlectraSnippets.svg?label=Downloads&color=875A7B" alt="Downloads"/>
         </a>
-        <a href="https://marketplace.visualstudio.com/items?itemName=jigar-patel.OdooSnippets&ssr=false#review-details">
-            <img src="https://img.shields.io/visual-studio-marketplace/r/jigar-patel.OdooSnippets.svg?label=Rating&color=875A7B" alt="Ratings"/>
+        <a href="https://marketplace.visualstudio.com/items?itemName=jigar-patel.FlectraSnippets&ssr=false#review-details">
+            <img src="https://img.shields.io/visual-studio-marketplace/r/jigar-patel.FlectraSnippets.svg?label=Rating&color=875A7B" alt="Ratings"/>
         </a>
     </div>
 </h1>
 
-This extension contains predefined code snippets for [Odoo](https://www.odoo.com/) developer. Snippets are available for following supported languages (file extensions):
+This extension contains predefined code snippets for [Flectra](https://www.flectra.com/) developer. Snippets are available for following supported languages (file extensions):
 * Python (`.py`)
 * Javascript (`.js`)
 * XML (`.xml`)
 * CSV (`.csv`)
 
-All snippets follow the [Odoo Guidelines](https://www.odoo.com/documentation/13.0/reference/guidelines.html).
+All snippets follow the [Flectra Guidelines](https://www.flectra.com/documentation/13.0/reference/guidelines.html).
 
 ## Installation
 
-Launch VS Code. Press `Ctrl+P` or `Command+P` (for Mac). Paste command `ext install jigar-patel.OdooSnippets` and press `Enter`.
+Launch VS Code. Press `Ctrl+P` or `Command+P` (for Mac). Paste command `ext install jigar-patel.FlectraSnippets` and press `Enter`.
 
 ## How to use?
 
 Most snippets prefixed with `oo`. For example if you want to add `create` CRUD method then type `oocreate`.
 
-<img src="https://raw.githubusercontent.com/droggol/VscOdooSnippets/master/images/demo.gif" width="624" height="544"/>
+<img src="https://raw.githubusercontent.com/droggol/VscFlectraSnippets/master/images/demo.gif" width="624" height="544"/>
 
 ## Search Snippets
 
-You can search snippets with `Odoo Snippet Search` command which can be run by pressing `Ctrl+Shift+P` or `Command+Shift+P` (for Mac).
+You can search snippets with `Flectra Snippet Search` command which can be run by pressing `Ctrl+Shift+P` or `Command+Shift+P` (for Mac).
 
 ## Documentation
 
@@ -50,7 +50,7 @@ Prefix | Purpose
 ------------ | -------------
 manifest | Add manifest json
 import | Add an import
-feimport | Add an import from odoo exceptions
+feimport | Add an import from flectra exceptions
 limport | Add an import from logging and create logger
 fimport | Add an import from
 model | Add model
@@ -96,7 +96,7 @@ confirm | Add confirm dialog
 
 Prefix | Purpose
 ------------ | -------------
-`<odoo>` | Add Odoo namespace
+`<flectra>` | Add Flectra namespace
 `<data>` | Add data tag
 `<menuitem>` | Add root menu
 `<menuitem>` | Add sub menu
@@ -162,19 +162,19 @@ Prefix | Purpose
 ##### Prefixed with `oo`
 Prefix | Purpose
 ------------ | -------------
-hdr | Add a header line for odoo model access file
+hdr | Add a header line for flectra model access file
 all | Add an all group access record
 spec | Add a specify group access record
 
 ## Contributing
 If you'd like to report an issue or help contribute to this visual studio code extension, please visit the repository on Github.
 
-- [Repository](https://github.com/droggol/VscOdooSnippets)
-- [Issues](https://github.com/droggol/VscOdooSnippets/issues)
+- [Repository](https://github.com/droggol/VscFlectraSnippets)
+- [Issues](https://github.com/droggol/VscFlectraSnippets/issues)
 
 #### Thanks to all the people who already contributed!
-<a href="https://github.com/droggol/VscOdooSnippets/graphs/contributors">
-    <img src="https://contributors-img.firebaseapp.com/image?repo=droggol/VscOdooSnippets"/>
+<a href="https://github.com/droggol/VscFlectraSnippets/graphs/contributors">
+    <img src="https://contributors-img.firebaseapp.com/image?repo=droggol/VscFlectraSnippets"/>
 </a>
 
 ## Release Notes
@@ -186,5 +186,5 @@ Detailed release notes are available [here](CHANGELOG.md).
 Code licensed under [MIT](LICENSE).
 
 <a href="https://www.droggol.com">
-    <img src="https://raw.githubusercontent.com/droggol/VscOdooSnippets/master/images/droggol_logo.png" width="128" height="56"/>
+    <img src="https://raw.githubusercontent.com/droggol/VscFlectraSnippets/master/images/droggol_logo.png" width="128" height="56"/>
 </a>

@@ -1,7 +1,7 @@
 {
-    "name": "OdooSnippets",
-    "displayName": "Odoo Snippets",
-    "description": "Snippets for Odoo developer",
+    "name": "FlectraSnippets",
+    "displayName": "Flectra Snippets",
+    "description": "Snippets for Flectra developer",
     "version": "1.4.0",
     "icon": "images/icon.png",
     "publisher": "jigar-patel",
@@ -17,7 +17,7 @@
         "Snippets"
     ],
     "keywords": [
-        "odoo",
+        "flectra",
         "snippets",
         "python",
         "xml",
@@ -33,7 +33,7 @@
         "commands": [
             {
                 "command": "extension.snippetSearch",
-                "title": "Odoo Snippet Search"
+                "title": "Flectra Snippet Search"
             }
         ],
         "snippets": [
@@ -58,13 +58,13 @@
             }
         ]
     },
-    "homepage": "https://github.com/droggol/VscOdooSnippets",
+    "homepage": "https://github.com/droggol/VscFlectraSnippets",
     "repository": {
         "type": "git",
-        "url": "https://github.com/droggol/VscOdooSnippets"
+        "url": "https://github.com/droggol/VscFlectraSnippets"
     },
     "bugs": {
-        "url": "https://github.com/droggol/VscOdooSnippets/issues"
+        "url": "https://github.com/droggol/VscFlectraSnippets/issues"
     },
     "scripts": {
         "vscode:prepublish": "npm run compile",

@@ -1,16 +1,16 @@
 {
-    "Odoo namespace": {
-        "prefix": "<odoo>",
+    "Flectra namespace": {
+        "prefix": "<flectra>",
         "body": [
             "<?xml version=\"1.0\" encoding=\"utf-8\"?>",
-            "<odoo>",
+            "<flectra>",
             "",
             "\t${0}",
             "",
-            "</odoo>",
+            "</flectra>",
             ""
         ],
-        "description": "Add Odoo namespace"
+        "description": "Add Flectra namespace"
     },
     "Data": {
         "prefix": "<data>",

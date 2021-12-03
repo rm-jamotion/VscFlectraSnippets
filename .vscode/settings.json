@@ -1,11 +1,35 @@
-// Place your settings in this file to overwrite default and user settings.
 {
-    "files.exclude": {
-        "out": false // set this to true to hide the "out" folder with the compiled JS files
-    },
-    "search.exclude": {
-        "out": true // set this to false to include "out" folder in search results
-    },
-    // Turn off tsc task auto detection since we have the necessary tasks as npm scripts
-    "typescript.tsc.autoDetect": "off"
+  "files.exclude": {
+    "out": false,
+    "logs": "explorerExcludedFiles",
+    "*.log": "explorerExcludedFiles",
+    "npm-debug.log*": "explorerExcludedFiles",
+    "yarn-debug.log*": "explorerExcludedFiles",
+    "yarn-error.log*": "explorerExcludedFiles",
+    "pids": "explorerExcludedFiles",
+    "*.pid": "explorerExcludedFiles",
+    "*.seed": "explorerExcludedFiles",
+    "*.pid.lock": "explorerExcludedFiles",
+    "lib-cov": "explorerExcludedFiles",
+    "coverage": "explorerExcludedFiles",
+    ".nyc_output": "explorerExcludedFiles",
+    ".grunt": "explorerExcludedFiles",
+    "bower_components": "explorerExcludedFiles",
+    ".lock-wscript": "explorerExcludedFiles",
+    "build/Release": "explorerExcludedFiles",
+    "node_modules/": "explorerExcludedFiles",
+    "jspm_packages/": "explorerExcludedFiles",
+    "typings/": "explorerExcludedFiles",
+    ".npm": "explorerExcludedFiles",
+    ".eslintcache": "explorerExcludedFiles",
+    ".node_repl_history": "explorerExcludedFiles",
+    "*.tgz": "explorerExcludedFiles",
+    ".yarn-integrity": "explorerExcludedFiles",
+    ".env": "explorerExcludedFiles",
+    ".next": "explorerExcludedFiles"
+  },
+  "search.exclude": {
+    "out": true
+  },
+  "typescript.tsc.autoDetect": "off"
 }
